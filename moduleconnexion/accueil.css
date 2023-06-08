@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto+Slab:wght@100;200;300;400;500;600;700;800;900 & display=swap' );
+*{
+    margin:0;
+    box-sizing: border-box;
+    padding: 0%;
+    font-family: 'Gruppo', sans-serif;
+    
+}
+
+
+
+/* HEADER */
+header {
+    display: flex;
+    background-color: #0e0e0e;
+    justify-content: space-around;
+    align-self: center;
+    padding: 2%;
+    list-style-type: none;
+    color: rgb(253, 250, 248);
+    font-size: 250;
+    font-weight: lighter;
+}
+a{
+    text-decoration: none;
+    color: #f4f1f0;
+}
+
+button {
+    display: flex-end;
+    background-color: #060606;
+    color: #f5f0ef;
+    border-bottom: #f4968c;
+    padding: 12px 40px;
+    border-radius: 2px;
+    cursor: pointer;   
+    font-size:100%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+button:hover{
+    background-color: #500e0e;
+}
+
+
+
+/*MAIN*/
+.presentation {
+    display: flex;
+    background-color: #444e4f;
+    justify-content : space-around;
+    color: #f4f1f0;
+    font-size: 30px;
+    font-family: 'Gruppo', sans-serif;
+    text-align: center;
+    line-height: 2em;
+    background-image: url("./img/footer.jpg");
+    background-size: cover;
+    background-position: right;
+    height: 380px;
+    padding-top: 10px;
+}
+
+
+/*FOOTER*/
+.coordonnees{
+    display: flex;
+    background-color: #444e4f;
+    justify-content : space-around;
+    color: #0c0b0b;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 2em;
+    background-image: url("./img/footfont.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 280px;
+    padding-top: 15px;
+}
+

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto+Slab:wght@100;200;300;400;500;600;700;800;900 & display=swap' );
+*{
+    font-family: 'Gruppo', sans-serif;
+    
+}
+
+body {
+   background-image:url("./img/galery2.jpg");  
+
+
+}
+.container {
+    background-color: rgb(5, 5, 5);
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    text-align: justify;
+    color: rgb(202, 196, 196);
+    align-items: center;
+    line-height: 1.5;
+    flex: 1;
+    margin:auto;
+    margin-top: 50px;
+    justify-content: center;
+    flex-direction: column;
+    padding: 25px; /* espace entre la bordure et le texte */
+    border-radius: 5px; /* arrondi des coins de la bordure */
+    box-shadow: 0 0 5px #4a403e; /* ombre portée */
+    margin-bottom: 12%;
+}
+.container .button{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    color: #c2a3a3; /* Couleur du lien déjà cliqué */
+    text-decoration: none; /* Supprimer le soulignement */
+    font-size: large;
+}
+
+
